@@ -4,16 +4,11 @@ body {
     font-family: "Source Code Pro", monospace;
     background-color: #f4f4f4;
     color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .container {
     width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
 }
 
 header {
@@ -21,16 +16,14 @@ header {
     font-family: "SixtyFour Convergence", sans-serif;
     font-size: 4rem;
     text-align: left;
-    background: none;  /* Explicitly remove background */
 }
 
 hr {
-
-    height: 15px;  /* Made thicker */
-    background-color: #333;
-    margin: 0;
-    border: none;
-    width: 50%;
+    height: 15px !important;
+    background-color: #333 !important;
+    margin: 0 auto !important;
+    border: none !important;
+    width: 50% !important;
 }
 
 main {
