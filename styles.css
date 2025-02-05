@@ -1,4 +1,5 @@
 
+
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ header {
     padding: 20px 40px;
     background-color: #fff;
     font-family: "SixtyFour Convergence", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 hr {
