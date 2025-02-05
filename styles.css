@@ -14,16 +14,16 @@ body {
 header {
     padding: 20px 0;
     font-family: "SixtyFour Convergence", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: left;
 }
 
 hr {
-    height: 14px;
+    height: 10px;
     background-color: #333;
     margin: 0 auto;
     border: none;
-    width: 20px;
+    width: 25px;
 }
 
 main {
