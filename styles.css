@@ -14,6 +14,7 @@ body {
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 20px 20px;
     font-family: "SixtyFour Convergence", sans-serif;
     font-size: 2.5rem;
@@ -22,10 +23,9 @@ header {
 hr {
     height: 5px;
     background-color: #333;
-    margin: 0;
     border: none;
-    width: 4rem;
-    margin-left: 10px;
+    width: 80%;
+    margin: 10px auto;
 }
 
 main {
@@ -61,3 +61,4 @@ a:hover {
         margin: 10px;
     }
 } 
+
