@@ -20,11 +20,11 @@ header {
 }
 
 hr {
-    height: 5px;
+    height: 3.5px;
     background-color: #333;
     margin: 0;
     border: none;
-    width: 5rem;
+    width: 3rem;
     margin-left: 10px;
 }
 
