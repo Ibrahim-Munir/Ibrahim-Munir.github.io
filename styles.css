@@ -24,7 +24,7 @@ hr {
     background-color: #333;
     margin: 0;
     border: none;
-    flex-grow: 1;
+    width: 5rem;
     margin-left: 10px;
 }
 
