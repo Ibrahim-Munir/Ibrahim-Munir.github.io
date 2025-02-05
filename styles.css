@@ -19,11 +19,11 @@ header {
 }
 
 hr {
-    height: 15px !important;
-    background-color: #333 !important;
-    margin: 0 auto !important;
-    border: none !important;
-    width: 50% !important;
+    height: 10px;
+    background-color: #333;
+    margin: 0 auto;
+    border: none;
+    width: 50%;
 }
 
 main {
