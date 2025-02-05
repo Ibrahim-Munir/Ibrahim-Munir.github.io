@@ -1,28 +1,33 @@
-
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Source Code Pro", monospace;
     background-color: #f4f4f4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80%;  /* Made wider */
+    min-width: 300px;
 }
 
 header {
     padding: 20px 0;
-    background-color: #fff;
     font-family: "SixtyFour Convergence", sans-serif;
     font-size: 4rem;
-    width: 40%;
-    margin: 0 auto;
+    text-align: left;
+    background: none;  /* Explicitly remove background */
 }
 
 hr {
-    width: 40%;
-    height: 5px;
+    height: 12px;  /* Made thicker */
     background-color: #333;
-    margin: 0 auto;
+    margin: 0;
     border: none;
+    width: 100%;
 }
 
 main {
@@ -44,14 +49,13 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    
     header {
         font-size: 2.5rem;
         padding: 15px 0;
-        width: 80%;
-    }
-    
-    hr {
-        width: 80%;
     }
     
     main {
