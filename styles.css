@@ -12,18 +12,18 @@ body {
 }
 
 header {
-    padding: 20px 0;
+    padding: 20px 20px;
     font-family: "SixtyFour Convergence", sans-serif;
-    font-size: 1rem;
+    font-size: 2.5rem;
     text-align: left;
 }
 
 hr {
-    height: 5px;
+    height: 15px;
     background-color: #333;
     margin: 0 auto;
     border: none;
-    width: 600px;
+    width: 5rem;
 }
 
 main {
